@@ -18,10 +18,10 @@ a = a.text();
 // Wait some more time.
 a.match(/<a href/g);
 // Or, everything in a single step:
-await. b = async()=> (await (await fetch("/")).text).match(/<a href/g);
+await. b = async()=> (await (await fetch("/")).text()).match(/<a href/g);
 ```
 
-If you forgot to declare an `await.` variables, you can convert a normal global `var` variable into an `await.` retroactively:
+If you forgot to declare an `await.` variable, you can convert a normal global `var` variable into an `await.` retroactively:
 
 ```javascript
 c = fetch("/");
@@ -62,7 +62,7 @@ in the console (you can also use it as a bookmarklet).
 
 <!-- or bookmark this <a href="javascript:void(document.documentElement.appendChild(document.createElement('script')).src='https://raw.githubusercontent.com/rafaelgieschke/await.-variables/master/await.js'">await.-variables bookmarklet</a> and click it on the target page. -->
 
-### For Node.js:
+### For Node.js
 
 ```sh
 npm install await.-variables
