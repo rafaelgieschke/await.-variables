@@ -1,0 +1,19 @@
+{
+  "name": "await.-variables",
+  "version": "1.0.3",
+  "description": "",
+  "main": "await.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafaelgieschke/await.-variables.git"
+  },
+  "author": "Rafael Gieschke",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rafaelgieschke/await.-variables/issues"
+  },
+  "homepage": "https://github.com/rafaelgieschke/await.-variables#readme"
+}
