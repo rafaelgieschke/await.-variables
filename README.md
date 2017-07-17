@@ -11,6 +11,8 @@ This library helps by letting you declare `await.` variables. They are like `var
 ![Screenshot](screenshot2.png)
 
 ```javascript
+// Load library:
+fetch("https://raw.githubusercontent.com/rafaelgieschke/await.-variables/master/await.js").then(v=>v.text()).then(eval);
 // Instead of:
 var promise = fetch("/");
 // Execute this in Console:
