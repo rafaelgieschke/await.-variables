@@ -7,6 +7,9 @@ JavaScript's `Promise`s (in ECMAScript 2015) and `async function`s (in ECMAScrip
 
 This library helps by letting you declare `await.` variables. They are like `var` variables but automatically resolve `Promise`s, print the fulfillment value (using `console.log`) and assign the fulfillment value to themselves. Additionally, they automatically execute parameter-less `async` (arrow) functions:
 
+![Screenshot](screenshot1.png)
+![Screenshot](screenshot2.png)
+
 ```javascript
 // Instead of:
 var promise = fetch("/");
