@@ -1,5 +1,6 @@
+# await. variables 
 
-# await. variables
+- <https://github.com/rafaelgieschke/await.-variables>
 
 > await.-variables make interactively debugging `Promise`s a breeze.
 
@@ -98,3 +99,7 @@ require("await.-variables");
 ## Shouldn't they be called `async.` variables?
 
 Maybe. Maybe not.
+
+## License
+
+[MIT](https://opensource.org/licenses/MIT)
