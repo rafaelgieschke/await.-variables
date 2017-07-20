@@ -12,7 +12,7 @@ This library helps by letting you declare `await.` variables. They are like `var
 
 ```javascript
 // Load library:
-fetch("https://raw.githubusercontent.com/rafaelgieschke/await.-variables/master/await.js").then(v=>v.text()).then(eval);
+fetch("https://rafaelgieschke.github.io/await.-variables/await.js").then(v=>v.text()).then(eval);
 // Instead of:
 var promise = fetch("/");
 // Execute this in Console:
@@ -53,19 +53,26 @@ await. d = fetch("invalid://");
 
 Execute:
 
-<!--
 ```javascript
-javascript:void(document.documentElement.appendChild(document.createElement('script')).src='https://raw.githubusercontent.com/rafaelgieschke/await.-variables/master/await.js')
-```
--->
-
-```javascript
-javascript:void(fetch("https://raw.githubusercontent.com/rafaelgieschke/await.-variables/master/await.js").then(v=>v.text()).then(eval))
+fetch("https://rafaelgieschke.github.io/await.-variables/await.js").then(v=>v.text()).then(eval);
 ```
 
-in the console (you can also use it as a bookmarklet).
+in the console.
 
-<!-- or bookmark this <a href="javascript:void(document.documentElement.appendChild(document.createElement('script')).src='https://raw.githubusercontent.com/rafaelgieschke/await.-variables/master/await.js'">await.-variables bookmarklet</a> and click it on the target page. -->
+Depending on the [CSP](https://w3c.github.io/webappsec-csp/) of the target web page (if any), you might have more luck using:
+
+```javascript
+document.documentElement.appendChild(document.createElement("script")).src="https://rafaelgieschke.github.io/await.-variables/await.js";
+```
+
+To automate the process, you can bookmark this
+<a href="javascript:fetch('https://rafaelgieschke.github.io/await.-variables/await.js').then(v=>v.text()).then(eval);document.documentElement.appendChild(document.createElement('script')).src='https://rafaelgieschke.github.io/await.-variables/await.js';void0">await.-variables bookmarklet</a> (if you cannot see a link, you might have to look at this documentation at [github.io](https://rafaelgieschke.github.io/await.-variables/)) and click it on the target page. It will try both ways of execution.
+
+Lastly, you can also import await.-variables as a module:
+
+```javascript
+import "https://rafaelgieschke.github.io/await.-variables/await.js";
+```
 
 ### For Node.js
 
