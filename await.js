@@ -30,6 +30,8 @@
  * @see {@link https://github.com/rafaelgieschke/await.-variables}
  */
 
+"use strict";
+
 try {
   // Try to remove the `<script>` element used to load this library.
   document.currentScript.remove();
