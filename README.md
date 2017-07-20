@@ -1,8 +1,6 @@
 # await. variables 
 
-- <https://github.com/rafaelgieschke/await.-variables>
-
-> await.-variables make interactively debugging `Promise`s a breeze.
+> await.-variables make interactively debugging `Promise`s a breeze. - <https://github.com/rafaelgieschke/await.-variables>
 
 JavaScript's `Promise`s (in ECMAScript 2015) and `async function`s (in ECMAScript 2017) are great but can be hard to debug interactively in Consoles.
 
@@ -103,3 +101,6 @@ Maybe. Maybe not.
 ## License
 
 [MIT](https://opensource.org/licenses/MIT)
+
+<a href="https://github.com/rafaelgieschke/await.-variables"><img style="position: absolute; top: 0; right: 0; border: 0;" alt="Fork me on GitHub" src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png"></a>
+
