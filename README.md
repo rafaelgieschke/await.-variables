@@ -67,6 +67,12 @@ document.documentElement.appendChild(document.createElement("script")).src="http
 To automate the process, you can bookmark this
 <a href="javascript:fetch('https://rafaelgieschke.github.io/await.-variables/await.js').then(v=>v.text()).then(eval);document.documentElement.appendChild(document.createElement('script')).src='https://rafaelgieschke.github.io/await.-variables/await.js';void(0)">await.-variables bookmarklet</a> (if you cannot see a link, you might have to look at this documentation at [github.io](https://rafaelgieschke.github.io/await.-variables/)) and click it on the target page. It will try both ways of execution.
 
+You can also load it by adding a `<script>` element to your web page:
+
+```html
+<script src="https://rafaelgieschke.github.io/await.-variables/await.js"></script>
+```
+
 Lastly, you can also import await.-variables as a module:
 
 ```javascript
@@ -101,6 +107,8 @@ Maybe. Maybe not.
 ## License
 
 [MIT](https://opensource.org/licenses/MIT)
+
+---
 
 <a href="https://github.com/rafaelgieschke/await.-variables"><img style="position: absolute; top: 0; right: 0; border: 0;" alt="Fork me on GitHub" src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png"></a>
 
