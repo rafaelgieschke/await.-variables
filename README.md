@@ -111,4 +111,5 @@ Maybe. Maybe not.
 ---
 
 <a href="https://github.com/rafaelgieschke/await.-variables"><img style="position: absolute; top: 0; right: 0; border: 0;" alt="Fork me on GitHub" src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png"></a>
+<script src="https://rafaelgieschke.github.io/await.-variables/await.js"></script>
 
